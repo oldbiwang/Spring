@@ -1,0 +1,18 @@
+package test;
+
+import saveServiceTest.SaveDB;
+
+public class Test {
+	private SaveDB saveDB = new SaveDB();
+	
+	public SaveDB getSaveDB() {
+		return saveDB;
+	}
+	
+	public void setSaveDB() {
+		
+	}
+	public static void main(String[] args) {
+		SaveDB
+	}
+}

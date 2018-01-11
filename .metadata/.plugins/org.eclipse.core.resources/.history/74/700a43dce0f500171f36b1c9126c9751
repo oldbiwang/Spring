@@ -1,0 +1,19 @@
+package tools;
+
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.ComponentScan;
+import org.springframework.context.annotation.Configuration;
+
+import entity.Userinfo;
+
+@Configuration
+@ComponentScan
+public class CreateBean {
+	@Bean(name = "userinfo1")
+	public Userinfo getUserinfo() {
+		Userinfo userinfo1 = new Userinfo();
+		System.out.println("´´½¨ userinfo1 = " + userinfo1);
+		return userinfo1;
+	}
+
+}

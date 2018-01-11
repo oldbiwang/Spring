@@ -1,0 +1,9 @@
+package test;
+
+import org.springframework.context.ApplicationContext;
+
+public class Test1_1 {
+	public static void main(String[] args) {
+		ApplicationContext context = new ClassPathXmlApplicationContext("applicationContext.xml");
+	}
+}

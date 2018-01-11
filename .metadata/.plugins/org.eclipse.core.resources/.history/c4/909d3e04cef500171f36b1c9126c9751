@@ -1,0 +1,8 @@
+package tools;
+
+import org.springframework.context.annotation.Bean;
+
+public class CreateBean {
+	@Bean
+	
+}

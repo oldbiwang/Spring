@@ -1,0 +1,23 @@
+package tools;
+
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
+
+import entity.Userinfo;
+
+@Configuration
+public class CreateBean {
+	@Bean
+	public Userinfo getUserinfo() {
+		Userinfo userinfo1 = new Userinfo();
+		System.out.println("创建 userinfo1 = " + userinfo1);
+		return userinfo1;
+	}
+	
+	@Bean
+	public Userinfo createUserinfo() {
+		Userinfo userinfo2 = new Userinfo();
+		System.out.println("创建 userinfo2 = " + userinfo2);
+		return userinfo2;
+	}
+}

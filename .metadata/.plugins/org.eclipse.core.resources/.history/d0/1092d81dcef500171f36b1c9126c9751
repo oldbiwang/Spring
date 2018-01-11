@@ -1,0 +1,12 @@
+package tools;
+
+import org.springframework.context.annotation.Bean;
+
+import entity.Userinfo;
+
+public class CreateBean {
+	@Bean
+	public Userinfo getUserinfo() {
+		Userinfo userinfo1 = new Userinfo();
+	}
+}

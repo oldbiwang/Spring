@@ -1,0 +1,7 @@
+package saveServiceTest;
+
+public class SaveDB {
+	public void save() {
+		System.out.println("将数据保存进数据库");
+	}
+}
